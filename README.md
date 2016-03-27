@@ -3,7 +3,7 @@ vim-react-snippets
 
 A set of snippets for Vim to work with Facebook's [React](http://facebook.github.io/react/) library.
 
-A direct port of the awesome snippets from 
+A direct port of the awesome snippets from
 [jgebhardt/sublime-react](https://github.com/jgebhardt/sublime-react).
 
 Requires [vim-snipmate](https://github.com/garbas/vim-snipmate) or [Ultisnips](https://github.com/SirVer/ultisnips).
@@ -34,7 +34,7 @@ Bundle "honza/vim-snippets"
 ```
 ####Ultisnips
 
-If you prefer to use `vim-react-snippets` with `Ultisnips`, put this in your .vimrc 
+If you prefer to use `vim-react-snippets` with `Ultisnips`, put this in your .vimrc
 to install using Vundle
 
 ````
@@ -61,10 +61,10 @@ gdp<Tab>
 expanding to
 
 ```
-getDefaultProps: function() {
+getDefaultProps() {
     return {
 
-    };
+    }
 },
 ```
 
